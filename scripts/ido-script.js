@@ -19,9 +19,9 @@ async function main() {
   );
   let currentBlockTime = currentBlock.timestamp;
 
-  let Vesting = await ethers.getContractFactory("Vesting");
+  let PrivateSale = await ethers.getContractFactory("PrivateSale");
 
-  vesting = await Vesting.deploy(
+  privateSale = await PrivateSale.deploy(
     idoToken.address,
     currentBlockTime + 30 * SECONDS_IN_DAY,
     currentBlockTime + 60 * SECONDS_IN_DAY,
@@ -33,8 +33,8 @@ async function main() {
     ],
     [1000, 1000]
   );
-  await vesting.deployed();
-  console.log("Vesting: ", vesting.address);
+  await privateSale.deployed();
+  console.log("PrivateSale: ", privateSale.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

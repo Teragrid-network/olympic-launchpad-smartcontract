@@ -1,0 +1,17 @@
+Index: .idea/olympic-launchpad-smartcontract.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/olympic-launchpad-smartcontract.iml b/.idea/olympic-launchpad-smartcontract.iml
+--- a/.idea/olympic-launchpad-smartcontract.iml	
++++ b/.idea/olympic-launchpad-smartcontract.iml	
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="WEB_MODULE" version="4">
++  <component name="Go" enabled="true" />
+   <component name="NewModuleRootManager">
+     <content url="file://$MODULE_DIR$" />
+     <orderEntry type="inheritedJdk" />

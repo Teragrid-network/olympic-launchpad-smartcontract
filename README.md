@@ -14,5 +14,5 @@ node scripts/sample-script.js
 npx hardhat help
 ```
 
-Testing: ```npx hardhat test .\test\vesting-test.js\```
-Deploy to Fuji testnet: ```npx hardhat run .\scripts\ido-script.js --network fuji```
+Testing: `npx hardhat test .\test\private-sale-test.js\`
+Deploy to Fuji testnet: `npx hardhat run .\scripts\ido-script.js --network fuji`
