@@ -1,4 +1,4 @@
-module olympic-launchpad
+module olympic-launchpad-smartcontract
 
 go 1.16
 
